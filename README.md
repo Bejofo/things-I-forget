@@ -52,4 +52,11 @@ Reminder to use `\` instead of `/` when dealing with windows systems.
 curl http://some.url --output some.file
 ```
 
+## Check battery info
+
+```
+cd /sys/class/power_supply/BAT0/
+ls
+cat energy_now
+```
 
